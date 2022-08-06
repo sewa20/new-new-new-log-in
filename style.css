@@ -1,0 +1,97 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  background-image: url(https://image.shutterstock.com/z/stock-vector-love-eat-logo-cafe-or-restaurant-emblem-plate-with-fork-spoon-and-fried-eggs-in-the-yellow-513914290.jpg);
+}
+
+
+
+@media (min-width:500px) {
+  .Flex-Container{
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    width:600px;
+    background-color: #FFEA11;
+    border-radius: 1.5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+  }
+
+
+  .Header{
+    text-align: center;
+    position: relative;
+    top:50px;
+    letter-spacing: 10px;
+    font-family: "Brygada 1918" , sans-serif;
+
+  }
+
+  .second-header{
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Uchen" , sans-serif;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .middle-text{
+    margin-left: 50px;
+  }
+
+  .use{
+    margin-left: 20px;
+  }
+
+
+  .pass{
+    margin-left: 20px;
+  }
+
+  .box{
+    margin-left: 20px;
+  }
+
+
+  .btn{
+    margin-top: 20px;
+  }
+
+  .check{
+    margin-top:20px;
+    margin-left:150px;
+    position: relative;
+    top:20px;
+    right:50px;
+  }
+
+  .keep{
+
+  margin-left: 200px;
+  text-align: left;
+
+  }
+
+  .last{
+
+    margin-right: 200px;
+
+  }
+
+.last2{
+  margin-left: 200px;
+  margin-bottom: 50px;
+  position: relative;
+  bottom:25px;
+
+}
+
+}
